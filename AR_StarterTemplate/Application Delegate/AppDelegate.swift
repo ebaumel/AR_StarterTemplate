@@ -1,10 +1,10 @@
-//
-//  AppDelegate.swift
-//  AR_StarterTemplate
-//
-//  Created by Eric M. Baumel on 8/17/18.
-//  Copyright © 2018 Softcode Systems. All rights reserved.
-//
+///
+///  AppDelegate.swift
+///  AR_StarterTemplate
+///
+///  Created by Eric M. Baumel on 8/17/18.
+///  Copyright © 2018 Softcode Systems, LLC. All rights reserved.
+///
 
 import UIKit
 

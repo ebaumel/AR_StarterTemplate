@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		2419B755212795160054F924 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2419B754212795160054F924 /* AppDelegate.swift */; };
 		2419B757212795160054F924 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2419B756212795160054F924 /* art.scnassets */; };
-		2419B759212795160054F924 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2419B758212795160054F924 /* ViewController.swift */; };
+		2419B759212795160054F924 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2419B758212795160054F924 /* RootViewController.swift */; };
 		2419B75C212795160054F924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2419B75A212795160054F924 /* Main.storyboard */; };
 		2419B75E212795170054F924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2419B75D212795170054F924 /* Assets.xcassets */; };
 		2419B761212795170054F924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2419B75F212795170054F924 /* LaunchScreen.storyboard */; };
 		2419B76C212795170054F924 /* AR_StarterTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2419B76B212795170054F924 /* AR_StarterTemplateTests.swift */; };
 		2419B777212795170054F924 /* AR_StarterTemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2419B776212795170054F924 /* AR_StarterTemplateUITests.swift */; };
+		2419B78B2127B51D0054F924 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2419B78A2127B51D0054F924 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		2419B751212795160054F924 /* AR_StarterTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_StarterTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2419B754212795160054F924 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2419B756212795160054F924 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		2419B758212795160054F924 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2419B758212795160054F924 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		2419B75B212795160054F924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2419B75D212795170054F924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2419B760212795170054F924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,8 @@
 		2419B772212795170054F924 /* AR_StarterTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_StarterTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2419B776212795170054F924 /* AR_StarterTemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_StarterTemplateUITests.swift; sourceTree = "<group>"; };
 		2419B778212795170054F924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2419B78A2127B51D0054F924 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2419B7902127BE680054F924 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		2419B748212795160054F924 = {
 			isa = PBXGroup;
 			children = (
+				2419B7902127BE680054F924 /* README.md */,
+				2419B78A2127B51D0054F924 /* Default-568h@2x.png */,
 				2419B753212795160054F924 /* AR_StarterTemplate */,
 				2419B76A212795170054F924 /* AR_StarterTemplateTests */,
 				2419B775212795170054F924 /* AR_StarterTemplateUITests */,
@@ -99,13 +104,13 @@
 		2419B753212795160054F924 /* AR_StarterTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				2419B754212795160054F924 /* AppDelegate.swift */,
+				2419B784212795310054F924 /* Application Delegate */,
+				2419B785212795440054F924 /* View Controllers */,
+				2419B7912127BFF50054F924 /* Utilities */,
+				2419B7892127B4FD0054F924 /* Resources */,
 				2419B756212795160054F924 /* art.scnassets */,
-				2419B758212795160054F924 /* ViewController.swift */,
-				2419B75A212795160054F924 /* Main.storyboard */,
-				2419B75D212795170054F924 /* Assets.xcassets */,
-				2419B75F212795170054F924 /* LaunchScreen.storyboard */,
-				2419B762212795170054F924 /* Info.plist */,
+				2419B787212795A10054F924 /* Storyboards */,
+				2419B7882127B4D00054F924 /* Supporting Files */,
 			);
 			path = AR_StarterTemplate;
 			sourceTree = "<group>";
@@ -126,6 +131,62 @@
 				2419B778212795170054F924 /* Info.plist */,
 			);
 			path = AR_StarterTemplateUITests;
+			sourceTree = "<group>";
+		};
+		2419B784212795310054F924 /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				2419B754212795160054F924 /* AppDelegate.swift */,
+			);
+			path = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		2419B785212795440054F924 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2419B786212795590054F924 /* Root View Controller */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2419B786212795590054F924 /* Root View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2419B758212795160054F924 /* RootViewController.swift */,
+			);
+			path = "Root View Controller";
+			sourceTree = "<group>";
+		};
+		2419B787212795A10054F924 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2419B75A212795160054F924 /* Main.storyboard */,
+				2419B75F212795170054F924 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2419B7882127B4D00054F924 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2419B762212795170054F924 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2419B7892127B4FD0054F924 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2419B75D212795170054F924 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2419B7912127BFF50054F924 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +296,7 @@
 				2419B757212795160054F924 /* art.scnassets in Resources */,
 				2419B761212795170054F924 /* LaunchScreen.storyboard in Resources */,
 				2419B75E212795170054F924 /* Assets.xcassets in Resources */,
+				2419B78B2127B51D0054F924 /* Default-568h@2x.png in Resources */,
 				2419B75C212795160054F924 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2419B759212795160054F924 /* ViewController.swift in Sources */,
+				2419B759212795160054F924 /* RootViewController.swift in Sources */,
 				2419B755212795160054F924 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,6 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -437,8 +500,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 96E5MF68XF;
-				INFOPLIST_FILE = AR_StarterTemplate/Info.plist;
+				DEVELOPMENT_TEAM = 3C627JDP6V;
+				INFOPLIST_FILE = "AR_StarterTemplate/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,8 +519,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 96E5MF68XF;
-				INFOPLIST_FILE = AR_StarterTemplate/Info.plist;
+				DEVELOPMENT_TEAM = 3C627JDP6V;
+				INFOPLIST_FILE = "AR_StarterTemplate/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
